@@ -8,13 +8,11 @@ html,body{
 }
 
 .bg-wht{
-  height :720px;
 	width: 100%;
 	background-color: white;
 }
 
 .bg-grey{
-    height :720px;
 	width: 100%;
 	background-color: #F5F5F5;
 }
