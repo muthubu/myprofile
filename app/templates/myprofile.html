@@ -1,0 +1,458 @@
+{% extends 'master.html' %}
+
+{% block content %}
+<section class="container-fluid bg-hero">
+<div class="navbar navbar-expand-lg op navbar-dark text-light pt-4 px-5">
+    <div class="container-fluid">
+        <a class="navbar-brand h1" href="#">My Profile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="i">
+            <ul class="nav nav-underline navbar-nav justify-content-end flex-grow-1 mt-3">
+                <li class="nav-item">
+                  <a id="h" class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a id="e" class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#project">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div> 
+</div>
+<div class="collapse navbar-collapse light" id="navbarSupportedContent">
+    <ul class="nav nav-underline navbar-nav text-center justify-content-center flex-grow-1 mt-3">
+        <li class="nav-item">
+          <a id="h" class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a id="e" class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+    </ul>
+</div>
+    <div id="particles-js" class="text-center">
+    </div>
+    <div class="animate-clip text-center" id="he">
+        <h2 class="text-light"><b>Hello</b></h2>
+        <h1 class="ah-headline text-white py-3">
+            <span>I am</span>
+            <span class="ah-words-wrapper">
+                <b class="is-visible">Muthu</b>
+                <b>Developer</b>
+                <b>Designer</b>
+                <b>FreeLancher</b>
+            </span>
+        </h1>
+        <div class="row" style="display:inline;">
+            <a href="#" class="icon text-light"><i class=" fa fa-facebook"></i></a>
+            <a href="#" class="icon text-light"><i class=" fa fa-instagram" ></i></a>
+            <a href="#" class="icon text-light"><i class=" fa fa-linkedin" ></i></a>
+            <a href="#" class="icon text-light"><i class=" fa fa-twitter" ></i></a>
+        </div>
+    </div>
+</section>
+<section id="section2">
+    <div class="container-fluid bg-wht text-center pt-5 mb-5" id="about" style="height: fit-content !important;">
+        <h2 class="my-5">
+            <b>About Me.</b>
+        </h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-4 col-lg-4">
+                <img src="media/im2.jpg" alt="">
+            </div>
+            <div class="col-md-6 col-sm-8 col-lg-5">
+                <div class="container py-5 text-start">
+                    <h5><b>Muthu</b></h5>
+                    <h6 style="color: grey;">Web Developer / Web Designer</h6>
+                    <p><strong>I am muthu</strong>,Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maxime officiis a molestias soluta tempore voluptatum earum odio explicabo perferendis, quisquam velit quidem fugit sint id nam sapiente distinctio et!      
+                    </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid bg-wht py-5 my-5" id="education" style="height: fit-content !important;">
+    <div class="container my-5 text-center">
+        <h2 class="my-5"><span class="fa fa-graduation-cap"></span> Education</h2>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th class="py-3">
+                        Institude
+                    </th>
+                    <th class="py-3">
+                        Name of the course
+                    </th>
+                    <th class="py-3">
+                        Passing Year
+                    </th>
+                    <th class="py-3">
+                        No.of.percentage
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="py-3">
+                        Bharathiar University PG Extension Centre
+                    </td>
+                    <td class="py-3">
+                        MCA
+                    </td >
+                    <td class="py-3">
+                        2021 - 2023
+                    </td>
+                    <td class="py-3">
+                        <strong class="counter">82</strong><span> %</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="py-3">
+                        Maharaja Arts and Science College
+                    </td>
+                    <td class="py-3">
+                        B.Sc Computer Science
+                    </td>
+                    <td class="py-3">
+                        2018 - 2021
+                    </td>
+                    <td class="py-3">
+                        <strong class="counter">76</strong><span> %</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="py-3">
+                        Bharathiar Matriculation Higher Secondary School
+                    </td>
+                    <td class="py-3">
+                        HSC
+                    </td>
+                    <td class="py-3">
+                        2018
+                    </td>
+                    <td class="py-3">
+                        <strong class="counter">74</strong><span> %</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="py-3">
+                        J.R.C Higher Secondary School
+                    </td>
+                    <td class="py-3">
+                        SSLC
+                    </td>
+                    <td class="py-3">
+                        2016
+                    </td>
+                    <td class="py-3">
+                        <strong class="counter">85</strong><span> %</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="container-fluid bg-grey py-5 text-center" id="skills" style="height: fit-content !important;">
+    <h2 class="mt-5">
+        <b><span class="fa fa-bolt"></span> Skills</b>
+    </h2>
+    <div class="container bg-body my-5 px-5 py-2">
+        <div class="row">
+            <div class="col-md-6  py-5">
+                <h6 class="text-dark">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Aperiam aspernatur consectetur
+                    dolore ducimus earum perferendis sunt totam vitae.
+                    Adipisci at commodi dolorem ducimus eaque
+                    iusto libero magnam modi nulla qui.</h6>
+            </div>
+            <div class="col-md-6">
+                <div class="skills">
+                    <div class="item">
+                        <div class="skills-progress">
+                            <h6>Web development</h6>
+                            <span data-value="90%">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <div class="item">
+                        <div class="skills-progress">
+                            <h6>Python</h6>
+                            <span data-value="80%">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <div class="item">
+                        <div class="skills-progress">
+                            <h6>Web Design</h6>
+                            <span data-value="85%">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid bg-wht text-center pt-5" id="project" style="height: fit-content !important;">
+    <h2 class="my-5">
+        <b>Our Projects</b>
+    </h2>
+    <div class="owl-carousel owl-theme my-5">
+        <img src="/media/img001.png" alt="hfir">
+        <img src="/media/im1.jpg" alt="hfir">
+        <img src="/media/im.jpg" alt="hfir">
+        <img src="/media/im1.jpg" alt="hfir">
+        <img src="/media/img002.jpeg" alt="hfir">
+    </div>
+    <h3>Testimonial</h3>
+    <div class="row my-5">
+            <h2><span class="icons fa fa-users"></span></h2>
+            <h4 class="counter mt-3">150</h4>
+            <h5>Users</h5>
+    </div>
+    <div class="row my-3">
+            <h2><span class="icons fa fa-laptop"></span></h2>
+            <h4 class="counter mt-3">9250</h4>
+            <h5>Codes</h5>
+    </div>
+    <div class="row my-3">
+            <h2><span class="icons fa fa-cloud-download"></span></h2>
+            <h4 class="counter mt-3">765</h4>
+            <h5>Download File</h5>
+    </div>
+</section>
+
+<section class="container-fluid bg-grey py-5 text-center" id="blog" style="height: fit-content !important;">
+    <h2 class="mt-5">
+        <strong><b> Blog</b></strong>
+    </h2>
+    <div class="container-fluid bg-body my-5 ps-5 py-2">
+        <div class="menu my-3">
+            <ul class="nav nav-underline justify-content-center ">
+                <li class="nav-item pe-3">
+                <a class="nav-link active text-dark" data-filter="*" href="#"><strong>All</strong></a>
+                </li>
+                <li class="nav-item pe-3">
+                <a class="nav-link text-dark" data-filter=".brand" href="#"><strong>Brand</strong></a>
+                </li>
+                <li class="nav-item pe-3">
+                <a class="nav-link text-dark" data-filter=".design" href="#"><strong>Web Design</strong></a>
+                </li>
+            </ul>
+        </div> 
+        <div class="row ps-5">
+            <div class="items card-deck">
+                <div class="item design card col-md-3 col-sm-4 my-3 mx-2">
+                    <img src="/media/im.jpg" alt="" class="card-img-top">
+                </div>
+                <div class="item design card col-md-3 col-sm-4 mx-2 my-3">
+                    <img src="/media/im1.jpg" alt="" class="card-img-top">
+                </div>
+                <div class="item design card col-md-3 col-sm-4 mx-2 my-3">
+                    <img src="/media/img001.png" alt="" class="card-img-top">
+                </div>
+                <div class="item brand card col-md-3 col-sm-4 mx-2 my-3">
+                    <img src="/media/img001.png" alt="" class="card-img-top">
+                </div>
+                <div class="item brand card col-md-3 col-sm-4 mx-2 my-3">
+                    <img src="/media/img002.jpeg" alt="" class="card-img-top">
+                </div>
+                <div class="item brand card col-md-3 col-sm-4 mx-2 my-3">
+                    <img src="/media/im.jpg" alt="" class="card-img-top">
+                </div>
+            </div>       
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid text-center pt-5" id="contact" style="height: fit-content !important;">
+    <h2 class="my-5">
+        <b><span class="fa fa-id-badge"></span> Contact</b>
+    </h2>
+    <div class="container my-3 p-5">
+        <div class="row justify-content-center">
+            <form action="#" class="col-md-6">
+                <div class="form-floating mb-3 text-secondary">
+                    <input type="text" class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" id="floatingInputGroup1" placeholder="Name">
+                    <label for="floatingInputGroup1"> Name</label>
+                </div>
+
+                <div class="form-floating mb-3  text-secondary">
+                    <input type="email" class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput"> Your Mail Id</label>
+                </div>
+                
+                <div class="form-floating mb-3  text-secondary">
+                    <textarea class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+                <button type="button" class="btn btn-dark float-end"> Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="p-3">
+    <div class="container text-center">
+        <h3 class="mb-5 mt-3"><b>Contact us</b></h3>
+        <div class="row justify-content-center">
+            <ul class="col-md-3 col-6 border-end">
+                <li class="non">
+                    <a href="#" class="px-2 pt-1 text-light"><i class="fa fa-facebook"> facebook</i></a>
+                </li>
+                <li class="non">
+                    <a href="#" class="px-2 text-light"><i class="fa fa-instagram"> Instagram</i></a>
+                </li>
+                <li class="non">
+                    <a href="#" class="px-2 text-light"><i class="fa fa-whatsapp"> Whatsapp</i></a>
+                </li>
+                <li class="non">
+                    <a href="#" class="px-2 text-light"><i class="fa fa-telegram"> Telegram</i></a>
+                </li>  
+                </ul>
+            <ul class="col-md-4 col-6">
+                <li class="non">
+                    <a href="#" class="px-2 text-light"><i class="fa fa-envelope"> E-Mail : muthubu01@gmail.com</i></a>
+                </li>
+                <li class="non">
+                    <a href="#" class="px-2 text-light"><i class="fa fa-mobile"> Moblie : +91 XXXXXXXXXX</i></a>
+                </li>
+                <li class="non">
+                    <a href="#" class="px-2 text-light"><i class="fa fa-github"> Github : github.com/Muthaiahprojects</i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+{% load static %}
+<script src="{% static 'js/particles.js' %}"></script>
+<script src="{% static 'js/app.js' %}"></script>
+
+<script>
+
+    //clip heading
+    $(function() {
+        "use strict";
+
+        var wind = $(window);
+
+        $('.animate-clip').animatedHeadline({
+            animationType: 'clip'
+        });
+
+        //carousel
+        $('.owl-carousel').owlCarousel({
+        margin: 30,
+        loop:true,
+        autoplay:true,
+        smartSpeed:300,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            767:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+        });
+
+        //counter
+        $('.counter').countUp({
+        delay: 10,
+        time: 1500
+        });
+
+        //nav scroll
+        $('body').scrollspy({ target: '#navbar' });
+
+        //progress bar
+        wind.on('scroll', function () {
+            $(".skills-progress span").each(function () {
+                var bottom_of_object =
+                $(this).offset().top + $(this).outerHeight();
+                var bottom_of_window =
+                $(window).scrollTop() + $(window).height();
+                var myVal = $(this).attr('data-value');
+                if(bottom_of_window > bottom_of_object) {
+                    $(this).css({
+                      width : myVal
+                    });
+                }
+            });
+        });
+
+        //nav hidden
+        window.addEventListener('scroll', function() {
+          var navbar = document.getElementById('navbar');
+          var section2 = document.getElementById('section2');
+
+          if (section2.getBoundingClientRect().top <= 0) {
+            navbar.classList.remove('hidden');
+          } else {
+            navbar.classList.add('hidden');
+          }
+        });
+
+        //isotope
+        $('.items').isotope({
+            itemSelector: '.item',
+            layoutMode: 'fitRows'
+        });
+        $('.menu ul li a').click(function(){
+            $('.menu ul li a').removeClass('active');
+            $(this).addClass('active');
+
+            var selector = $(this).attr('data-filter');
+            $('.items').isotope({
+                filter:selector
+            });
+            return false;
+        });
+
+    });
+
+</script>
+
+{% endblock %}
