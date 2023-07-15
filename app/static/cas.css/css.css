@@ -9,6 +9,7 @@ html,body{
 
 .bg-wht{
 	width: 100%;
+  height: fit-content;
 	background-color: white;
 }
 
@@ -151,4 +152,17 @@ span.icons{
   color :#000000 !important;
   position: relative;
   z-index:99;
+}
+
+/* media Query*/
+@media only screen and (min-width:480px){
+  
+}
+
+@media only screen and (min-width:768px){
+  
+}
+
+@media only screen and (min-width:1140px){
+  
 }
