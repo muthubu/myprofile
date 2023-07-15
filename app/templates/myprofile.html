@@ -81,8 +81,6 @@
         </div>
     </div>
 </section>
-<section id="section2">    
-</section>
 <section class="container-fluid bg-wht text-center pt-5 mb-3" id="about" style="height: fit-content !important;" >
     <h2 class="my-5">
         <b>About Me.</b>
@@ -426,7 +424,7 @@
         //nav hidden
         window.addEventListener('scroll', function() {
           var navbar = document.getElementById('navbar');
-          var section2 = document.getElementById('section2');
+          var section2 = document.getElementById('about');
 
           if (section2.getBoundingClientRect().top <= 0) {
             navbar.classList.remove('hidden');
