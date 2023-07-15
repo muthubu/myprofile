@@ -35,6 +35,7 @@ nav{
 
 #section2{
   background-image: url("/media/mpimg.png");
+  height: 0% !important;
 }
 
 .bg-hero{
