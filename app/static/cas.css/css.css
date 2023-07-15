@@ -33,6 +33,10 @@ nav{
   top: -100px;
 }
 
+#section2{
+  background-image: url("/media/mpimg.png");
+}
+
 .bg-hero{
     width: 100%;
     height: 100%;
