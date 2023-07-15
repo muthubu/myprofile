@@ -34,7 +34,7 @@ nav{
 }
 
 #section2{
-  height: 300px;
+  height: fit-content;
 }
 
 .bg-hero{
