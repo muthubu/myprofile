@@ -433,6 +433,10 @@
           }
         });
 
+        $('.navbar-collapse a').click(() => {
+        $('.navbar-collapse').collapse('hide');
+        });
+
         //isotope
         $('.items').isotope({
             itemSelector: '.item',
